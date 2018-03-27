@@ -1,0 +1,37 @@
+[
+{
+    "name": "Spark Poll",
+    "description": "Responsive, lightweight and easy-to-use polling app that lets you quickly create polls, share them with your friends, and visualize their results.",
+    "imageUrl": "https://raw.githubusercontent.com/abohannon/spark-poll/develop/screenshots/landing-page.png",
+    "tags": "React/Redux/Node/Express/Mongo",
+    "urls": [
+      {
+        "label": "Code",
+        "href": "https://github.com/abohannon/spark-poll"
+      },
+      {
+        "label": "Demo",
+        "href": "https://spark-poll.herokuapp.com"
+       }
+    ]    
+},
+{
+    "name": "Ticket Mailer",
+    "description": "Custom Shopify app designed and engineered for a client that specializes in VIP events and concerts.",
+    "imageUrl": "https://raw.githubusercontent.com/abohannon/ticket-mailer/develop/screenshots/Screen%20Shot%202018-02-26%20at%2011.56.23%20AM.png",
+    "tags": "React/Redux/Node/Express/Mongo",
+    "urls": [
+      {
+        "label": "Code",
+        "href": "https://github.com/abohannon/ticket-mailer"
+      }
+    ]
+},
+{
+    "name": "Critical Mass",
+    "description": "Full-service crowdfunding platform for artists. (We're currently in private alpha. Once we launch I'll update this with a live url!)",
+    "imageUrl": "http://beautylook.pro/upload/resize_cache/iblock/1dd/660_400_2/1ddbd843bd7062121f0c0d1cce7edb77.jpg",
+    "tags": "React/Redux/Node/Express/Mongo",
+    "urls": []
+}
+]

@@ -1,0 +1,39 @@
+@import '../../styles/variables';
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 4rem 4rem;
+  background-color: $color-grey-darkest;
+  //  background-image: url($topo-back);
+  // background-color: $color-grey-lightest;
+
+  &__container {
+    width: 96rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  &__title {
+    display: block;
+    color: $color-white;
+    font-size: 8rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  &__subtitle {
+    display: block;
+    color: $color-white-85;
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 70rem;
+  }
+
+}

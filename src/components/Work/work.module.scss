@@ -1,0 +1,34 @@
+@import '../../styles/variables';
+@import '../../styles/base';
+
+.work {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 4rem;
+  background-color: $color-grey-lightest;
+   background-image: url($topo-back);
+
+  &__container {
+    width: 96rem;
+  }
+
+  &__title {
+    font-size: $section-title-font-size;
+    font-weight: $section-title-font-weight;
+    margin-bottom: 4rem;
+  }
+
+  &__cards {
+    display: flex;
+
+  }
+
+  &__footer {
+    margin: 2rem 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 1.2rem;
+  }
+}
