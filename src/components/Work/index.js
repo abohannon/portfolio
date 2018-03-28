@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './work.module.scss';
-import { MyCard } from '../../components/common';
+import { MyCard, SectionHeader } from '../../components/common';
 import config from './config.json';
-
-console.log(config);
 
 const renderCards = () => config.map((project, index) => (
   <MyCard
@@ -21,9 +19,7 @@ const renderCards = () => config.map((project, index) => (
 const Work = () => (
   <div className={styles.work}>
     <div className={styles.work__container}>
-      <h2 className={styles.work__title}>
-       Recent Work
-      </h2>
+      <SectionHeader title="Recent Work" />
       <div className={styles.work__cards}>
         {renderCards()}
       </div>

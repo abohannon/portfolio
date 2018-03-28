@@ -1,6 +1,12 @@
 @import '../../styles/variables';
 
 .tools {
-  height: 50rem;
+  display: flex;
+  justify-content: center;
+  padding: 10rem 4rem;
+  
+  &__container {
+    width: 96rem;
+  }
   
 }

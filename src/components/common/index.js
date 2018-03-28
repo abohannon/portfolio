@@ -1,2 +1,2 @@
-export * from './MyCard'
-;
+export * from './MyCard';
+export * from './SectionHeader';
