@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-import scss from '../../constants/_variables.scss';
+import scss from '../../styles/_variables.scss';
 
 const styles = props => ({
   cardStyle: {
