@@ -2,19 +2,9 @@
 @import '../../styles/base';
 
 .work {
-  display: flex;
-  justify-content: center;
-  padding: 10rem 4rem;
-  background-color: $color-grey-lightest;
-   background-image: url($topo-back);
-
-  &__container {
-    width: 96rem;
-  }
 
   &__cards {
     display: flex;
-
   }
 
   &__footer {

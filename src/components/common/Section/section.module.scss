@@ -1,0 +1,12 @@
+@import '../../../styles/variables';
+
+.section {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  padding: 10rem 4rem;
+}
+
+.topo {
+  background-image: url($topo-back);
+}

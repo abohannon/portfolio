@@ -7,6 +7,8 @@
   transition: all .2s;
   display: inline-block;
   width: fit-content;
+  cursor: pointer;
+  z-index: 8;
 
   &:hover {
     color: $color-blue-light;

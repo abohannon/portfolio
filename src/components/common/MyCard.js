@@ -1,8 +1,8 @@
 import React from 'react';
 import { Card, CardActions, CardHeader, CardMedia, CardTitle, CardText } from 'material-ui/Card';
 import FlatButton from 'material-ui/FlatButton';
-import scss from '../../styles/_variables.scss';
-
+import variables from '../../styles/_variables.scss';
+// TODO: Refactor and break styles into scss
 const styles = props => ({
   cardStyle: {
     width: '33.33%',
@@ -50,7 +50,7 @@ const MyCard = (props) => {
         <img src={imageUrl} alt="" style={image} />
       </CardMedia>
       <CardTitle title={cardTitle} subtitle={cardSubtitle} />
-      <CardText style={{ color: scss.colorGreyLight }}>
+      <CardText style={{ color: variables.colorGreyLight }}>
         {children}
       </CardText>
       <CardActions style={actionsStyle}>
