@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from './container.module.scss';
 
 const Container = ({ children, style }) => (
-  <div style={{ ...{ width: '96rem' }, ...style }}>
+  <div className={styles.container}>
     {children}
   </div>
 );
